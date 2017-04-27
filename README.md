@@ -1,6 +1,6 @@
 # npmtest-memory-fs
 
-#### test coverage for  [memory-fs (v0.4.1)](https://github.com/webpack/memory-fs)  [![npm package](https://img.shields.io/npm/v/npmtest-memory-fs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-memory-fs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-memory-fs.svg)](https://travis-ci.org/npmtest/node-npmtest-memory-fs)
+#### basic test coverage for  [memory-fs (v0.4.1)](https://github.com/webpack/memory-fs)  [![npm package](https://img.shields.io/npm/v/npmtest-memory-fs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-memory-fs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-memory-fs.svg)](https://travis-ci.org/npmtest/node-npmtest-memory-fs)
 
 #### A simple in-memory filesystem. Holds data in a javascript object.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-memory-fs/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-memory-fs/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-memory-fs/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-memory-fs/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-memory-fs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-memory-fs/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-memory-fs/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-memory-fs/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-memory-fs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-memory-fs/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-memory-fs/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-memory-fs/build/coverage.html/index.html)
 
@@ -88,7 +88,8 @@
         "test": "mocha",
         "travis": "npm run cover -- --report lcovonly"
     },
-    "version": "0.4.1"
+    "version": "0.4.1",
+    "bin": {}
 }
 ```
 
